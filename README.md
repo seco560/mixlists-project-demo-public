@@ -7,7 +7,7 @@ You can adjust if you want all songs printed or just songs that appear more than
 It's very easy to pass your own exported data from Spotify, but I've included a snippet of mine in order to test the program. It currently does not save output to a file, just prints it to console, the test-output.txt file was obtained via passing regular output: 
 `go run . > test-output.txt`
 
-This experiment was borne out of frustration with having too many playlists and forgetting which songs are which. With a structure like this, it's very easy to implement a lookup function that shows what playlists a certain song is in. 
+This experiment was borne out of frustration with having too many playlists and forgetting which songs are on which playlist. With a structure like this, it's very easy to implement a lookup function that shows what playlists a certain song is in. 
 
 For now it's barebones, and I'm publishing it like this to get some feedback on my go code. The first aspect that begs improvement
 is code organisation, as well as clarity when handling indeces. A potential integration with Spotify API is the end goal, but for now it does its very basic job. 
